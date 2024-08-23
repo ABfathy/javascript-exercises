@@ -1,4 +1,16 @@
-const reverseString = function() {
+const reverseString = function(word) {
+
+    let reversedWord = "";
+
+    for (let i = word.length ;i >= 0 ;i--) {
+
+        reversedWord += word.charAt(i);
+      
+
+    }
+
+    return reversedWord;
+
 
 };
 
